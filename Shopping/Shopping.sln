@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{54AA9D31-076D-470E-B850-6DB4CCC802ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.API", "Shopping.API\Shopping.API.csproj", "{2D0A3F3D-419B-4947-9F02-29D5CDD046ED}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C4FE2139-852E-483D-B98A-38E7C4FADBF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54AA9D31-076D-470E-B850-6DB4CCC802ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54AA9D31-076D-470E-B850-6DB4CCC802ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54AA9D31-076D-470E-B850-6DB4CCC802ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54AA9D31-076D-470E-B850-6DB4CCC802ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D0A3F3D-419B-4947-9F02-29D5CDD046ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D0A3F3D-419B-4947-9F02-29D5CDD046ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D0A3F3D-419B-4947-9F02-29D5CDD046ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D0A3F3D-419B-4947-9F02-29D5CDD046ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4FE2139-852E-483D-B98A-38E7C4FADBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4FE2139-852E-483D-B98A-38E7C4FADBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4FE2139-852E-483D-B98A-38E7C4FADBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4FE2139-852E-483D-B98A-38E7C4FADBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D596DD31-5ED8-4E8F-A2BB-01C5624A5D89}
+	EndGlobalSection
+EndGlobal
